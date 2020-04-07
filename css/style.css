@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+	width: 1100px;
+	margin: 0px auto;
+}
+header{
+	background-image: url('../photo/main.jpg');
+	/* background-size: cover;	 */
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100vh;
+} 
+/* header{
+	width: auto;
+	height: auto;
+	margin: 0px;
+} */
+
+h1{
+	padding: 20px;
+	color: #FDFEFE;
+	font-weight: bold;
+}
+.menu{
+	background: #1B2631;
+	opacity: 1;
+}
+.menu ul{
+	text-align: center;
+	padding: 10px;
+}
+.menu ul li{
+	display: inline-block;
+	font-size: 20px;
+}
+.menu ul li a{
+	text-decoration: none;
+	padding: 20px;
+	color: #FDFEFE;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.menu ul li a:hover{
+	color: #FF0000;
+}
+.text{
+	width: 100%;
+	margin-top: 140px;
+	text-transform: uppercase;
+	text-align: center;
+	color:#FF0700;
+	line-height: 0.6;
+}
+
+.text h4{
+
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.text h1{
+	font-size:62px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700px;
+	margin:14px 0px;
+	color:#FF0700;
+}
+
+.text h3{
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+}
+.work{
+	width: 100%;
+
+}
+.work h1{
+	margin-right: -15px;
+	margin-left: -15px;
+	text-align: center;
+	padding: 30px;
+}
+.work div{
+	width: 24%;
+	background: red;
+	margin-bottom: 5px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.work .box-1{
+	width: 360px;
+  	border: 10px solid green;
+  	padding: 20px;
+  	margin: 10px;
+  	/* display: inline-flex;
+  	flex-direction: row; */
+  	float: left; 
+}
+.work .box-2{
+	width: 360px;
+  	border: 10px solid green;
+  	padding: 20px;
+  	margin: 10px;
+  	float: left; 
+}
+.work .box-3{
+	width: 360px;
+  	border: 10px solid green;
+  	padding: 20px;
+  	margin: 10px;
+  	/* display: inline-flex;
+  	flex-direction: row; */
+  	float: right; 
+}
+.work .box-4{
+	width: 360px;
+  	border: 10px solid green;
+  	padding: 20px;
+  	margin: 20px;
+	
+}
+.work .box-5{
+	width: 360px;
+  	border: 10px solid green;
+  	padding: 20px;
+  	margin: 20px;
+	
+}
+.work .box-6{
+	width: 360px;
+  	border: 10px solid green;
+  	padding: 20px;
+  	margin: 20px;
+	
+}
